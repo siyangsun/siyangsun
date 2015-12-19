@@ -3,12 +3,12 @@
     margin-left: 0px;
 }
 body {
-    background-color:#62A2B7;
+    background-color:#52806F;
     margin: 60px auto;
     width: 70%;
 }
 nav {
-    background-color:#105D76;
+    background-color:#155B40;
     font-size: 1.2em;
     padding-left: 20px;
     padding-top: 5px;
@@ -26,7 +26,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #A1D8EA;
+    color: #F2CCBB;
 }
 a:hover {
     text-decoration: underline;
@@ -34,14 +34,15 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #A17D9F;
 }
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #01242F;
+    color: #053B26;
 }
 footer {
-    border-top: 2px solid #A1D8EA;
+    border-top: 2px solid #F2CCBB;
     font-size: .8em;
 }
 
