@@ -3,7 +3,7 @@
     margin-left: 0px;
 }
 body {
-    background-color:#558372;
+    background: linear-gradient(#558372, #497968);
     margin: 60px auto;
     width: 70%;
 }
