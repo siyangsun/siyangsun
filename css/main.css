@@ -12,6 +12,7 @@ nav {
     border-top: 3px solid #A1D8EA;
     border-bottom: 3px solid #A1D8EA;
     font-size: 1.2em;
+    padding-left:20px;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
