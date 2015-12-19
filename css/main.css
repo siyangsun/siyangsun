@@ -39,10 +39,14 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: #9BDE5C;
 }
+h2 {
+    font-size: 2em;
+    color: #032619;
+}
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #053B26;
+    color: #032619;
 }
 footer {
     border-top: 2px solid #9CD0BC;
