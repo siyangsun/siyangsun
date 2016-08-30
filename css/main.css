@@ -61,3 +61,18 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+<style>
+.parallax{
+	background-image: url("https://cloud.githubusercontent.com/assets/13752232/18071031/a32a3088-6e0f-11e6-8075-3d8304f4221e.png");
+	
+	height: 480px;
+	
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+</style>
+
+<div class="parallax"></div>
