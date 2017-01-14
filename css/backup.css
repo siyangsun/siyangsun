@@ -1,0 +1,64 @@
+html {
+    min-height: 100%;
+}
+#logo_img {
+    margin-top: 50px;
+    margin-left: 0px;
+}
+body {
+    background: linear-gradient(#5e6b72, #45555d);
+    margin: 60px auto;
+    width: 70%;
+}
+nav {
+    background-color:#233a46;
+    font-size: 1.2em;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+nav ul, footer ul {
+    font-family: Verdana, Geneva, sans-serif;
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #7a9aaa;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+    font-family: Verdana, Geneva, sans-serif;
+    color: #a77db0;
+}
+h2 {
+    font-size: 1.5em;
+    color: #102530;
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #102530;
+}
+footer {
+    border-top: 2px solid #7a9aaa;
+    font-size: .8em;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
+
