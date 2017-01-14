@@ -1,4 +1,4 @@
-  body {
+ body {
   padding-top: 80px;
   text-align: center;
   font-family: monaco, monospace;
@@ -14,11 +14,11 @@ h1 {
   font-size: 30px
 }
 h2 {
-  font-size: 20px;
+  font-size: 18px;
 }
 p {
-	color: #DAF7A6
+  color: #DAF7A6
 }
-nav {
+a {
 	color: #6682FF
 }
