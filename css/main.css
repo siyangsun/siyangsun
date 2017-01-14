@@ -10,6 +10,11 @@ h1, h2 {
   background: #fd0;
   color: red
 }
+h3 {
+  display: inline-block;
+  background: #000;
+  color: #E2FFF0
+}
 h1 {
   font-size: 30px
 }
