@@ -7,7 +7,8 @@
 }
 h1, h2 {
   display: inline-block;
-  background: #fff;
+  background: #fd0;
+  color: red
 }
 h1 {
   font-size: 30px
@@ -18,6 +19,6 @@ h2 {
 p {
 	color: #DAF7A6
 }
-span {
-  background: #fd0;
+nav {
+	color: #6682FF
 }
