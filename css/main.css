@@ -17,12 +17,12 @@ h2 {
 }
 p {
   display: inline-block;
-  background: rgba(0,0,0,0.3);
+  background: rgba(0,0,0,0.4);
   color: #DAF7A6;
   font-size: 18px;
   font-family: "Courier New", Courier, monospace;
 }
 a {
   color: #C1DDFF;
-  background: rgba(0,0,0,0.1);
+  background: rgba(0,0,0,0.2);
 }
