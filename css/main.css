@@ -4,17 +4,21 @@ body {
   background: url(https://media.giphy.com/media/fsQZ0mfVrqRN0izgsa/source.gif) 50%;
   background-size: cover;
 }
+
 h1, h2 {
   display: inline-block;
   background: #fd0;
   color: red;
 }
+
 h1 {
   font-size: 30px;
 }
+
 h2 {
   font-size: 20px;
 }
+
 p {
   display: inline-block;
   background: rgba(0,0,0,0.4);
@@ -22,7 +26,32 @@ p {
   font-size: 18px;
   font-family: "Courier New", Courier, monospace;
 }
+
 a {
   color: #C1DDFF;
   background: rgba(0,0,0,0.2);
+}
+
+div.navheader {
+  position: absolute;
+  top: 10px;
+  bottom: 50px;
+  left: 20px;
+}
+
+div.container {
+  position: relative;
+  width: 100%;
+  top: 50px;
+
+}
+
+div.bottomlinks {
+  position: relative;
+  width: 100%;
+  top: 200px;
+  bottom: 10px;
+  text-align: right;
+  right: 20px;
+
 }
