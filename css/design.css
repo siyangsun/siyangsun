@@ -38,7 +38,7 @@ div.navheader {
 .wrapper {
         display: grid;
     grid-gap: 10px;
-        grid-template-columns: [col1-start] 400px  [col2-start] auto [col3-end];
+        grid-template-columns: [col1-start] 500px  [col2-start] auto [col3-end];
         grid-template-rows: [row1-start] 100px [row2-start] 400px [row3-start] 200px [row4-start] 290px [row4 end];
 
         color: #444;or: #013220;
