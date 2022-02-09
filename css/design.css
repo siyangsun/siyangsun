@@ -38,7 +38,7 @@ div.navheader {
 .wrapper {
         display: grid;
     grid-gap: 10px;
-        grid-template-columns: [col1-start] 500px  [col2-start] 300px  [col3-start] auto [col3-end];
+        grid-template-columns: [col1-start] 400px  [col2-start] auto [col3-end];
         grid-template-rows: [row1-start] 100px [row2-start] 400px [row3-start] 200px [row4-start] 290px [row4 end];
 
         color: #444;or: #013220;
@@ -54,12 +54,12 @@ div.navheader {
 
     .title {
 
-        grid-column: col1-start / col3-start;
+        grid-column: col1-start / col2-start;
         grid-row: row1-start ;
 
     }
     .illustration {
-        grid-column: col3-start ;
+        grid-column: col2-start ;
         grid-row: row1-start / row2-end;
         background: url(https://i.imgur.com/3ZxeGQ4.png);
         background-size: cover;
@@ -73,13 +73,6 @@ div.navheader {
         background-size: cover;
 
     }
-    .design {
-        grid-column: col2-start ;
-        grid-row: row4-start / row4-end;
-        background: url(https://i.imgur.com/PhwTnH9.jpg);
-        background-size: cover;
-
-    }
     .portrait {
         grid-column: col1-start ;
         grid-row: row3-start / row4-end ;
@@ -89,15 +82,7 @@ div.navheader {
 
 
     }
-    .spitpaints {
-        grid-column: col2-start ;
-        grid-row: row1-start / row4-start;
-        background: url(https://i.imgur.com/1zNlvwN.jpg);
-        background-size: 175%;
-        background-position: center;
 
-
-    }
 
 div.bottomlinks {
   position: relative;
