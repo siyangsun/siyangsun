@@ -52,47 +52,47 @@ div.navheader {
 
     };
 
-    .a {
+    .title {
 
         grid-column: col1-start / col3-start;
         grid-row: row1-start ;
 
     }
-    .b {
+    .illustration {
         grid-column: col3-start ;
         grid-row: row1-start / row2-end;
-        background: url(https://i.imgur.com/Z3gl38D.jpg);
+        background: url(https://i.imgur.com/3ZxeGQ4.png);
         background-size: cover;
 
 
     }
-    .c {
+    .concept {
         grid-column: col1-start;
         grid-row: row2-start ;
-        background: url(https://i.imgur.com/kh52Fx1.jpg);
+        background: url(https://i.imgur.com/czZncO7.png);
         background-size: cover;
 
     }
-    .d {
+    .design {
         grid-column: col2-start ;
         grid-row: row4-start / row4-end;
         background: url(https://i.imgur.com/PhwTnH9.jpg);
         background-size: cover;
 
     }
-    .e {
+    .portrait {
         grid-column: col1-start ;
         grid-row: row3-start / row4-end ;
-        background: url(https://i.imgur.com/7S9MfX8.jpg);
+        background: url(https://i.imgur.com/WIKLo0s.png);
         background-size: cover;
         background-position: center;
 
 
     }
-    .f {
+    .spitpaints {
         grid-column: col2-start ;
         grid-row: row1-start / row4-start;
-        background: url(https://i.imgur.com/dHX8ESZ.png);
+        background: url(https://i.imgur.com/1zNlvwN.jpg);
         background-size: 175%;
         background-position: center;
 
