@@ -9,6 +9,7 @@ h1, h2 {
   display: inline-block;
   background: #fd0;
   color: red;
+  float: left;
 }
 
 h1 {
@@ -20,11 +21,18 @@ h2 {
 }
 
 p {
+  float: left;
   display: inline-block;
   background: rgba(0,0,0,0.4);
   color: #DAF7A6;
   font-size: 18px;
   font-family: "Courier New", Courier, monospace;
+}
+
+li {
+  float: left;
+  color: #FFFFFF;
+  font-size: 14px;
 }
 
 a {
