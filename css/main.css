@@ -1,5 +1,4 @@
 body {
-  text-align: center;
   font-family: monaco, monospace;
   background: url(https://media.giphy.com/media/fsQZ0mfVrqRN0izgsa/source.gif) 50%;
   background-size: cover;
@@ -29,7 +28,7 @@ p {
   font-family: "Courier New", Courier, monospace;
 }
 
-li {
+x {
   float: left;
   color: #FFFFFF;
   font-size: 14px;
@@ -57,7 +56,7 @@ div.container {
 div.bottomlinks {
   position: relative;
   width: 100%;
-  top: 200px;
+  top: 100px;
   bottom: 10px;
   text-align: right;
   right: 20px;
