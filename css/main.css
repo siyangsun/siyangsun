@@ -31,8 +31,11 @@ p {
 x {
   float: left;
   color: #FFFFFF;
-  font-size: 18px;
 }
+
+ul {
+  list-style-type: none;
+ }
 
 a {
   color: #C1DDFF;
@@ -50,6 +53,11 @@ div.container {
   position: relative;
   width: 100%;
   top: 50px;
+
+}
+
+div.blurb {
+  position: relative;
 
 }
 
