@@ -20,8 +20,7 @@ h2 {
 }
 
 p {
-  float: left;
-  display: inline-block;
+  margin-left;
   background: rgba(0,0,0,0.4);
   color: #DAF7A6;
   font-size: 18px;
@@ -58,7 +57,7 @@ div.container {
 
 div.blurb {
   position: relative;
-
+  width: 100%;
 }
 
 div.bottomlinks {
