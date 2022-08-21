@@ -36,10 +36,26 @@ ul {
   list-style-type: none;
  }
 
-a {
-  color: #C1DDFF;
-  background: rgba(0,0,0,0.2);
+a:link {
+  color: #afc3ff;
+  text-decoration: none;
 }
+
+a:visited {
+  color: #ffbb7b;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:active {
+  font-weight: #edeeff;
+  text-decoration: none;
+}
+
 
 div.navheader {
   position: absolute;
