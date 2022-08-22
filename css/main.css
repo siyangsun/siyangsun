@@ -43,22 +43,23 @@ a:link {
   left: _px;
   padding: 0px 0px 0px 4px;
   text-decoration: none;
-  text-shadow: #ffffff 0px 0px 3px;
+  text-shadow: #afc3ff 0px 0px 5px;
   top: _px;
 }
 
 a:visited {
   color: #ffbb7b;
   text-decoration: none;
+  text-shadow: #ffbb7b 0px 0px 5px;
 }
 
 a:hover {
   color: #edeeff;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: bold;
   padding: 0px 0px 0px 0px;
   text-decoration: none;
-  text-shadow: #ffffff 0px 0px 50px;
+  text-shadow: #ffffff 0px 0px 40px;
 }
 
 a:active {
