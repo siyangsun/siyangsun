@@ -1,13 +1,13 @@
 body {
-  font-family: monaco, monospace;
   background: url(https://i.imgur.com/07S1egS.png) 100%;
   background-size: cover;
+  font-family: monaco, monospace;
 }
 
 h1, h2 {
-  display: inline-block;
   background: #fd0;
   color: red;
+  display: inline-block;
   float: left;
 }
 
@@ -21,17 +21,17 @@ h2 {
 
 p {
   background: rgba(0,0,0,0.4);
-  margin-left: 0px;
   color: #FFFFFF;
   font-size: 20px;
   line-height: 20px;
+  margin-left: 0px;
 }
 
 x {
-  margin-left: 0px;
   color: #FFFFFF;
   font-size: 20px;
   line-height: 20px;
+  margin-left: 0px;
 }
 
 ul {
@@ -40,11 +40,11 @@ ul {
 
 a:link {
   color: #afc3ff;
-  text-decoration: none;
   left: _px;
-  top: _px;
+  padding: 0px 0px 0px 4px;
+  text-decoration: none;
   text-shadow: #ffffff 0px 0px 4px;
-  padding: 0px 0px 0px 4px
+  top: _px;
 }
 
 a:visited {
@@ -55,8 +55,8 @@ a:visited {
 a:hover {
   font-size: 30px;
   font-weight: bold;
-  text-decoration: none;
   padding: 0px 0px 0px 0px;
+  text-decoration: none;
   text-shadow: #ffffff 0px 0px 6px;
 }
 
@@ -67,32 +67,31 @@ a:active {
 
 
 div.navheader {
-  position: absolute;
-  top: 10px;
   bottom: 50px;
   left: 20px;
+  position: absolute;
+  top: 10px;
 }
 
 div.container {
   position: relative;
-  width: 100%;
   top: 50px;
+  width: 100%;
 
 }
 
 div.blurb {
-  position: relative;
-  margin: auto;
-  width: 100%;
   bottom: 20px;
+  margin: auto;
+  position: relative;
+  width: 100%;
 }
 
 div.bottomlinks {
-  position: relative;
-  width: 100%;
-  top: 100px;
   bottom: 10px;
-  text-align: right;
+  position: relative;
   right: 20px;
-
+  text-align: right;
+  top: 100px;
+  width: 100%;
 }
