@@ -43,7 +43,7 @@ a:link {
   left: _px;
   padding: 0px 0px 0px 4px;
   text-decoration: none;
-  text-shadow: #ffffff 0px 0px 4px;
+  text-shadow: #ffffff 0px 0px 3px;
   top: _px;
 }
 
@@ -53,11 +53,12 @@ a:visited {
 }
 
 a:hover {
+  color: #edeeff;
   font-size: 30px;
   font-weight: bold;
   padding: 0px 0px 0px 0px;
   text-decoration: none;
-  text-shadow: #ffffff 0px 0px 6px;
+  text-shadow: #ffffff 0px 0px 50px;
 }
 
 a:active {
