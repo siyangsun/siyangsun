@@ -38,6 +38,10 @@ ul {
   list-style-type: none;
  }
 
+li{
+  margin: 12px 0;
+}
+
 a:link {
   color: #afc3ff;
   left: _px;
