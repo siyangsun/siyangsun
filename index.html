@@ -5,59 +5,39 @@
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 		<link rel="shortcut icon" href="https://cloud.githubusercontent.com/assets/13752232/11915697/3f7a0598-a670-11e5-8d85-a1494c1b50a6.png" type="image/x-icon" />
+
+    <script langauge="Javascript">
+  		function get_random()
+  			{
+  				// this script should be placed in the head of the document.
+  				// the code will select a number between 0-900.
+  				// the number can be changed to your needs.
+  				// the number is stored in the variable ranNum
+  				var ranNum= Math.floor(Math.random()*900);
+  				return ranNum;
+  			}
+    </script>
 	</head>
 
 	<style>
-.parallax{
+    .parallax{
 
+    	height: 480px;
 
-	height: 480px;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    }
+  </style>
 
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
+  <div class="parallax"></div>
+  	<body><script language="Javascript" type="text/javascript">
+      document.write("<span style='position:absolute;top:"+get_random()+";left:"+get_random()+";'><a href='/about'>*</a></span>")
+      document.write("<span style='position:absolute;top:"+get_random()+";left:"+get_random()+";'><a href='/'>*</a></span>")
+      document.write("<span style='position:absolute;top:"+get_random()+";left:"+get_random()+";'><a href='/courtyard'>*</a></span>")
+      document.write("<span style='position:absolute;top:"+get_random()+";left:"+get_random()+";'><a href='/aliases'>*</a></span>")
+    </script>
 
-</style>
+  </div>
 
-<div class="parallax"></div>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">home</a></li>
-            <li><a href="/courtyard">digital garden</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>hey! i'm siyang. <br></h1><br><br>
-        </div><!-- /.blurb -->
-        <br>
-          <p>this here is a little hub for all of my interests. it's nice to make your e-quaintance!</p>
-          <br>
-          <p>you might find me:</p>
-      		</div><!-- /.container -->
-          <div class="container">
-      <ul>
-        <x><li>working on a fast-growing <a href="https://retina.ai/">data science startup</a></li></x>
-        <x><li>posting artwork on <a href="https://www.instagram.com/shalombrushesss/">instagram</a> or sketches on <a href="https://siyang-art-dump.tumblr.com/">tumblr</a></li></x>
-        <x><li>posting beats on <a href="https://soundcloud.com/siyangsun">soundcloud</a></li></x>
-        <x><li>typing on a moonlander mk i with <a href="https://configure.zsa.io/moonlander/layouts/njbZx/latest/0">this layout</a></li></x>
-        <x><li>curating things that inspire me on <a href="https://www.are.na/siyang-sun">are.na</a></li></x>
-      </ul>
-  </div><!-- /.container -->
-
-		<footer>
-    <br>
-    <br>
-        <div class="bottomlinks">
-    		<ul>
-        		<li><a href="https://github.com/siyangsun">github</a></li>
-        		<li><a href="https://www.linkedin.com/in/siyang-sun-134b0bb4">linkedin</a></li>
-            <li><a href="https://twitter.com/unevenlyeven">twitter</a></li>
-            <li><a href="https://siyangsun.medium.com/">medium</a></li>
-			</ul>
-      </div>
-		</footer>
-	</body>
 </html>
