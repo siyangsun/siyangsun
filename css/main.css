@@ -3,7 +3,9 @@ body {
   background-size: cover;
   font-family: monaco, monospace;
   height: 100%;
+  margin: 100px;
   min-height:75%;
+  padding: 10px;
 }
 
 h1, h2 {
