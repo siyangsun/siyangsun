@@ -40,6 +40,10 @@ x {
   margin-left: 0px;
 }
 
+star {
+  position: absolute;
+}
+
 ul {
   list-style-type: none;
  }

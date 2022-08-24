@@ -12,7 +12,7 @@ for (var i = 0; i < stars.length; i++) {
 
   // get random numbers for each element
   randomTop = getRandomNumber(0, winHeight);
-  randomLeft = getRandomNumber(0, winWidth);
+  randomLeft = getRandomNumber(0, winWidth) + 50;
 
   // update top and left position
   thisStar.style.top = randomTop + "px";
