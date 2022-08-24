@@ -1,9 +1,9 @@
 // collect all the stars
 var stars = document.getElementsByTagName('star');
 // get window width and height
-var winWidth = window.innerWidth;
+var winWidth = window.innerWidth * 0.95;
+var winHeight = window.innerHeight * 0.95;
 
-var winHeight = window.innerHeight;
 // function that returns a random number between a min and max
 function getRandomNumber(min, max) {
   return Math.random() * (max - min) + min;
