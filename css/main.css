@@ -65,7 +65,7 @@ a:visited {
 
 a:hover {
   color: #edeeff;
-  font-size: 28px;
+  font-size: 40px;
   font-weight: bold;
   padding: 0px 0px 0px 0px;
   text-decoration: none;
@@ -78,7 +78,7 @@ a:active {
 }
 
 star {
-  font-size: 28px;
+  font-size: 40px;
   position: absolute;
 }
 
