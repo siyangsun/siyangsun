@@ -76,13 +76,6 @@ star {
   position: absolute;
 }
 
-div.navheader {
-  bottom: 50px;
-  left: 20px;
-  position: absolute;
-  top: 10px;
-}
-
 div.container {
   position: relative;
   top: 50px;
@@ -99,6 +92,7 @@ div.blurb {
 
 div.bottomlinks {
   bottom: 10px;
+  pointer-events: none;
   position: fixed;
   right: 20px;
   text-align: right;
