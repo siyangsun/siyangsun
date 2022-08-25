@@ -1,5 +1,6 @@
 body {
   background: url(https://i.imgur.com/07S1egS.png) 100%;
+  background-attachment: fixed;
   background-size: cover;
   font-family: monaco, monospace;
   height: 100%;
