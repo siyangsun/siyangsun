@@ -74,6 +74,7 @@ a:active {
 star {
   font-size: 40px;
   position: absolute;
+  z-index: 100;
 }
 
 div.container {
@@ -92,7 +93,6 @@ div.blurb {
 
 div.bottomlinks {
   bottom: 10px;
-  pointer-events: none;
   position: fixed;
   right: 20px;
   text-align: right;
