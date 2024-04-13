@@ -1,5 +1,5 @@
 // collect all the stars
-var stars = document.getElementsByTagName('star');
+var stars = document.getElementsByTagName("star");
 // get window width and height
 var winWidth = window.innerWidth * 0.95;
 var winHeight = window.innerHeight * 0.95;
@@ -11,7 +11,6 @@ function getRandomNumber(min, max) {
 
 // i stands for "index". you could also call this banana or haircut. it's a variable
 for (var i = 0; i < stars.length; i++) {
-
   // shortcut! the current star in the list
   var thisStar = stars[i];
 
