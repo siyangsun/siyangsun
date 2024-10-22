@@ -81,7 +81,7 @@ star {
 div.container {
   position: relative;
   top: 75px;
-  width: 80%;
+  width: 90%;
 
 }
 
@@ -99,4 +99,8 @@ div.bottomlinks {
   text-align: right;
   width: 30%;
   font-size: 30px;
+}
+
+iframe {
+  zoom: 1.5;
 }
