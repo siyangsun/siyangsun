@@ -5,11 +5,12 @@ body {
   font-family: monaco, monospace;
   height: 100%;
   margin: 160px;
-  min-height:75%;
+  min-height: 75%;
   padding: 10px;
 }
 
-h1, h2 {
+h1,
+h2 {
   background: #fd0;
   color: red;
   display: inline-block;
@@ -36,7 +37,7 @@ p {
 
 ul {
   list-style-type: none;
- }
+}
 
 li{
   margin: 18px 0;
